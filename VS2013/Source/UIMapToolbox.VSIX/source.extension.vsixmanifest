@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="UIMapToolbox.VS2013.VSIX.1ddee96f-5eef-4ff4-a0b1-13cf1cfbc7f9" Version="1.0.5.0" Language="en-US" Publisher="UIMapToolbox" />
+    <DisplayName>UIMap Toolbox for Visual Studio 2013</DisplayName>
+    <Description xml:space="preserve">UIMap Toolbox allows you to restructure, split and merge UIMaps created for Microsoft CodedUI tests in Visual Studio 2010, 2012 and 2013.</Description>
+    <MoreInfo>http://uimaptoolbox.codeplex.com</MoreInfo>
+    <License>License.txt</License>
+    <GettingStartedGuide>http://uimaptoolbox.codeplex.com/documentation</GettingStartedGuide>
+    <Icon>App.ico</Icon>
+    <PreviewImage>UIMapToolbox.png</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Ultimate" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="UIMapToolbox.VSPackage" Path="|UIMapToolbox.VSPackage;PkgdefProjectOutputGroup|" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="UIMapToolbox.Core" Path="|UIMapToolbox.Core|" AssemblyName="|UIMapToolbox.Core;AssemblyName|" />
+  </Assets>
+</PackageManifest>
