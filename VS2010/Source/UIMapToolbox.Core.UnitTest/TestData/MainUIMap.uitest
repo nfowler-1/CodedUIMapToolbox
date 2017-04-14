@@ -1,0 +1,2542 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="8.0.7600.16385" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="yes" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" Value="1" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 7 Professional " WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.1.7600.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1030" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1680" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1050" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="0" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="0" WarningLevel="1" />
+      <Setting Name="WindowsAccessibilityAPIVersion" Value="3.0" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Silverlight" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UICreatecaseCell.UICreatecasePane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="44" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UIMenuFrameFrame.UIHttp104915190db01Document.UIMTableTable.UICreatecaseCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="42" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="ClickCreateCase">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UITopHeaderPane.UITopMenuPane.UICreateContactCell.UICreatecontactPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="49" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="ClickCreateContact">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="30" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UIDocumentsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="29" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListDocuments">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="35" Y="5" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UIDraftsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="19" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListDrafts">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="23" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UIOpencasesCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="33" Y="4" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListOpenCases">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="30" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UIScannedtodayCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="33" Y="4" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListScannedToday">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="40" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UISearchesCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="44" Y="4" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListSearches">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="47" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UISubscriptionsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="55" Y="4" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListSubscriptions">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="39" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UITasksCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="33" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListTasks">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIF1Frame.UIF1Document.UIFixedListsCell.UIFixedListsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="43" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UICaptiaWindow.UICaptiaAppFrameFrame.UIAppFrameDocument.UIMenuFrameFrame.UIMenuFrameDocument.UIMTableTable.UITodayCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="31" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFixedListToday">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptiasjora0Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UIFrontpgPane.UIFrontpgPane1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="25" Y="5" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="NavigateFrontPage">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <NavigateToUrlAction UIObjectName="MainUIMap.UICaptiaWindow">
+      <ParameterName />
+      <Url>http://sj1/db01/</Url>
+      <NewInstance>true</NewInstance>
+    </NavigateToUrlAction>
+    <TestStepMarkerAction MarkerInformation="OpenCaptia">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptiasjora0Window.UIListIframeF1Frame.UIHttpsjora01db01Document.UICase20110727T134043Cell.UICase20110727T134043Pane1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="88" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="OpenCase">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UIF1Frame.UICaptiaFrontpgDocument.UIOpencases5Cell.UIOpencasesPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="42" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UIListIframeF1Frame.UIHttp104915190db01Document.UIItem2011000001Cell.UIItem2011000001Pane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="15" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="OpenFirstCase">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UIFragmentsregister_txEdit">
+      <ParameterName />
+      <Value Encoded="false">2011-00-0001</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UIListIframeF1Frame.UIHttp104915190db01Document.UIChanged20110801T1427Cell.UIChanged20110801T1427Pane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="75" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="SearchCase">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UIF1Frame1.UICaptiaFrontpgDocument.UIDocuments2Cell.UIDocumentsPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="34" Y="4" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UIListIframeF1Frame.UIHttp104915190db01Document.UIItem7520264Cell.UIItem7520264Pane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="17" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="SelectDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UIFragmentsregister_txEdit">
+      <ParameterName />
+      <Value Encoded="false">7520264</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UIFindCell.UIFindPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="10" Y="5" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="SearchDocument">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UIFragmentsregister_txEdit">
+      <ParameterName />
+      <Value Encoded="false">cu1</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UIFindCell.UIFindPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="25" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="SearchContact">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="MainUIMap.UIScanJourCaptia104915Window.UICaptiaAppFrameFrame.UIScanJourCaptiaDocument.UIFindCell1.UIFindPane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="9" Y="3" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="FindCase">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="MainUIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UICaptiaWindow" FriendlyName="ScanJour Captia - Windows I..." SpecialControlType="BrowserWindow" SessionId="328672">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>ScanJour Captia</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">ScanJour Captia</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Frame" Id="UICaptiaAppFrameFrame" FriendlyName="captiaAppFrame" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">captiaAppFrame</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">hideFocus style="POSITION: absolute" id=</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UIAppFrameDocument" FriendlyName="ScanJour Captia" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">ScanJour Captia</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Pane" Id="UITopHeaderPane" FriendlyName="topHeader" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="Id">topHeader</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText"> Create case   Create contact   Create W</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">id=topHeader</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UITopMenuPane" FriendlyName="topMenu" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id">topMenu</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText"> Create case   Create contact   Create W</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class" />
+                              <PropertyCondition Name="ControlDefinition">style="WIDTH: 85%; HEIGHT: 25px" id=topM</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">4</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Cell" Id="UICreateCaseCell" FriendlyName="Create case" SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>ScanJour Captia</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                  <PropertyCondition Name="Id">glob_opretSagDirekte</PropertyCondition>
+                                  <PropertyCondition Name="Name" />
+                                  <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText"> Create case </PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                                  <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                                  <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                                  <PropertyCondition Name="Class">menuButton2</PropertyCondition>
+                                  <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Pane" Id="UICreateCasePane" FriendlyName="Create case" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText"> Create case</PropertyCondition>
+                                      <PropertyCondition Name="Title" />
+                                      <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UICreateContactCell" FriendlyName="Create contact" SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>ScanJour Captia</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                  <PropertyCondition Name="Id">glob_opretAdressat</PropertyCondition>
+                                  <PropertyCondition Name="Name" />
+                                  <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText"> Create contact </PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                                  <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                                  <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                                  <PropertyCondition Name="Class">menuButton2</PropertyCondition>
+                                  <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Pane" Id="UICreatecontactPane" FriendlyName="Create contact" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText"> Create contact</PropertyCondition>
+                                      <PropertyCondition Name="Title" />
+                                      <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Pane" Id="UIMainTabsPane" FriendlyName="topHeader" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id">topHeader</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText"> Create case   Create contact   Create W</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class" />
+                              <PropertyCondition Name="ControlDefinition">id=topHeader</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Pane" Id="UIFrontPageOuterPane" FriendlyName="Front pg." SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>ScanJour Captia</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                  <PropertyCondition Name="Id">tab1</PropertyCondition>
+                                  <PropertyCondition Name="Name" />
+                                  <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText">Front pg.</PropertyCondition>
+                                  <PropertyCondition Name="Title" />
+                                  <PropertyCondition Name="Class">paneOn</PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">id=tab1 class=paneOn onclick="showWindow</PropertyCondition>
+                                  <PropertyCondition Name="TagInstance">8</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Pane" Id="UIFrontPagePane" FriendlyName="Front pg." SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Front pg.</PropertyCondition>
+                                      <PropertyCondition Name="Title">Front pg.</PropertyCondition>
+                                      <PropertyCondition Name="Class">subMenuLink2</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">class=subMenuLink2 title=""</PropertyCondition>
+                                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Frame" Id="UIF1Frame" FriendlyName="f1" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                          <PropertyCondition Name="Id">f1</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath" />
+                          <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">hideFocus style="Z-INDEX: 2; DISPLAY: no</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Document" Id="UIF1Document" FriendlyName="Captia - Front pg." SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                              <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                              <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title">Captia - Front pg.</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Cell" Id="UIFixedListsCell" FriendlyName="Fixed lists" SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>ScanJour Captia</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                  <PropertyCondition Name="Id">fors_t_fastelister</PropertyCondition>
+                                  <PropertyCondition Name="Name" />
+                                  <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText">Fixed lists </PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                                  <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                                  <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                                  <PropertyCondition Name="Class">menuButton</PropertyCondition>
+                                  <PropertyCondition Name="TagInstance">9</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Pane" Id="UIFixedListsPane" FriendlyName="Fixed lists" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Fixed lists </PropertyCondition>
+                                      <PropertyCondition Name="Title" />
+                                      <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                            <UIObject ControlType="Pane" Id="UIFixedListTitlePane" FriendlyName="Open cases" SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>ScanJour Captia</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                  <PropertyCondition Name="Id">listTitle</PropertyCondition>
+                                  <PropertyCondition Name="Name" />
+                                  <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText">Open cases</PropertyCondition>
+                                  <PropertyCondition Name="Title" />
+                                  <PropertyCondition Name="Class">list_title</PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">id=listTitle class=list_title onclick=se</PropertyCondition>
+                                  <PropertyCondition Name="TagInstance">13</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Frame" Id="UIF2Frame" FriendlyName="f2" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                          <PropertyCondition Name="Id">f2</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath" />
+                          <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">hideFocus style="Z-INDEX: 3; HEIGHT: 807</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Document" Id="UIF2Document" FriendlyName="Captia - Case:" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                              <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                              <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title">Captia - Case:</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Frame" Id="UIF3Frame" FriendlyName="f3" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                          <PropertyCondition Name="Id">f3</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath" />
+                          <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">hideFocus style="Z-INDEX: 4; DISPLAY: in</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Document" Id="UIF3Document" FriendlyName="Captia - Case: 2010-00-0001" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                              <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                              <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title">Captia - Case: 2010-00-0001</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Frame" Id="UIF4Frame" FriendlyName="f4" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                          <PropertyCondition Name="Id">f4</PropertyCondition>
+                          <PropertyCondition Name="Name">f4</PropertyCondition>
+                          <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath" />
+                          <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">style="DISPLAY: none; VISIBILITY: hidden</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">4</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Document" Id="UIF4Document" FriendlyName="Captia - Fetching info..." SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                              <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                              <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title">Captia - Fetching info...</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Frame" Id="UIF5Frame" FriendlyName="f5" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                          <PropertyCondition Name="Id">f5</PropertyCondition>
+                          <PropertyCondition Name="Name">f5</PropertyCondition>
+                          <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath" />
+                          <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">style="DISPLAY: none; VISIBILITY: hidden</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">5</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Document" Id="UIF5Document" FriendlyName="http://sj1/db01/null.htm" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                              <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                              <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title" />
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Frame" Id="UIMenuFrameFrame" FriendlyName="menuFrame" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                          <PropertyCondition Name="Id">menuFrame</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath" />
+                          <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">style="Z-INDEX: 1; BORDER-BOTTOM: 1px ou</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">6</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Document" Id="UIMenuFrameDocument" FriendlyName="Menu" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                              <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                              <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Title" />
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Table" Id="UIMTableTable" FriendlyName="mTable" SpecialControlType="None">
+                              <TechnologyName>Web</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>ScanJour Captia</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition Id="SearchCondition">
+                                <AndCondition Id="Primary">
+                                  <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                                  <PropertyCondition Name="Id">mTable</PropertyCondition>
+                                  <PropertyCondition Name="Name" />
+                                  <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                                </AndCondition>
+                                <FilterCondition Id="Secondary">
+                                  <PropertyCondition Name="InnerText">
+                                    Open cases
+                                    Open cases
+                                    Drafts
+                                  </PropertyCondition>
+                                  <PropertyCondition Name="ControlDefinition">style="VISIBILITY: visible" id=mTable bo</PropertyCondition>
+                                  <PropertyCondition Name="RowCount">24</PropertyCondition>
+                                  <PropertyCondition Name="ColumnCount">5</PropertyCondition>
+                                  <PropertyCondition Name="Class" />
+                                  <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                </FilterCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Cell" Id="UICreateCaseCell" FriendlyName="Create case" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id">glob_opretsag</PropertyCondition>
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText"> Create case </PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                                      <PropertyCondition Name="Class">menuButton</PropertyCondition>
+                                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Pane" Id="UICreateCasePane" FriendlyName="Create case" SpecialControlType="None">
+                                      <TechnologyName>Web</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>ScanJour Captia</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition Id="SearchCondition">
+                                        <AndCondition Id="Primary">
+                                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                                          <PropertyCondition Name="Id" />
+                                          <PropertyCondition Name="Name" />
+                                          <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                                        </AndCondition>
+                                        <FilterCondition Id="Secondary">
+                                          <PropertyCondition Name="InnerText"> Create case </PropertyCondition>
+                                          <PropertyCondition Name="Title" />
+                                          <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                                          <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                                        </FilterCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIOpencasesCell" FriendlyName="Open cases" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Open cases</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title=" with me as case handler" width="</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIDraftsCell" FriendlyName="Drafts" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Drafts</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title="My documents that are still draft</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">2</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">12</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UITodayCell" FriendlyName="Today" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Today</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title="My documents, mails etc. stored t</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">4</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">22</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIDocumentsCell" FriendlyName="Documents" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Documents</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title="My documents, mails etc. not arch</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">6</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">32</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIScannedtodayCell" FriendlyName="Scanned today" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Scanned today</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title="Todays scanned mail for the organ</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">8</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">42</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UITasksCell" FriendlyName="Tasks" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Tasks</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title="Cases and documents from workflow</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">10</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">52</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UISearchesCell" FriendlyName="Searches" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Searches</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title="My stored searches" width="99%" n</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">12</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">62</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UISubscriptionsCell" FriendlyName="Subscriptions" SpecialControlType="None">
+                                  <TechnologyName>Web</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>ScanJour Captia</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition Id="SearchCondition">
+                                    <AndCondition Id="Primary">
+                                      <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                      <PropertyCondition Name="Id" />
+                                      <PropertyCondition Name="Name" />
+                                      <PropertyCondition Name="TagName">TD</PropertyCondition>
+                                      <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                                    </AndCondition>
+                                    <FilterCondition Id="Secondary">
+                                      <PropertyCondition Name="InnerText">Subscriptions</PropertyCondition>
+                                      <PropertyCondition Name="ControlDefinition">title="My subscriptions" width="99%" noW</PropertyCondition>
+                                      <PropertyCondition Name="RowIndex">14</PropertyCondition>
+                                      <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                                      <PropertyCondition Name="Class" />
+                                      <PropertyCondition Name="TagInstance">72</PropertyCondition>
+                                    </FilterCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIScanJourCaptiasjora0Window" FriendlyName="ScanJour Captia - sjora01/db01/Default.asp - Windo..." SpecialControlType="BrowserWindow" SessionId="4522490">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">ScanJour Captia</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Frame" Id="UICaptiaAppFrameFrame" FriendlyName="captiaAppFrame" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">captiaAppFrame</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">hideFocus style="POSITION: absolute" id=</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UIScanJourCaptiaDocument" FriendlyName="ScanJour Captia" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">ScanJour Captia</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/db01/</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://sjora01/db01/</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Pane" Id="UIFrontpgPane" FriendlyName="Front pg." SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="Id">tab1</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Front pg.</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">paneOff</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=tab1 class=paneOff onclick="showWindo</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">8</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIFrontpgPane1" FriendlyName="Front pg." SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Front pg.</PropertyCondition>
+                              <PropertyCondition Name="Title">Front pg.</PropertyCondition>
+                              <PropertyCondition Name="Class">subMenuLink2</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=subMenuLink2 title=""</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIF3Frame" FriendlyName="f3" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">f3</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">hideFocus style="Z-INDEX: 4; DISPLAY: in</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UICaptiaCase2011000028Document" FriendlyName="Captia - Case: 2011-00-0028" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">Captia - Case: 2011-00-0028</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/db01/activateFrame.asp</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://sjora01/db01/activateFrame.asp?frame=3&amp;url=getFile.asp%3Fregister%3Dfile%26systemkey%3D2740292%26template%3Dfile_layout.xml&amp;displayLabel=Fetching info...&amp;useTransformation=true</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Edit" Id="UITitleEdit" FriendlyName="Title" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                          <PropertyCondition Name="Id">title</PropertyCondition>
+                          <PropertyCondition Name="Name">title</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="LabeledBy">Title</PropertyCondition>
+                          <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">inputRQ</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="BORDER-BOTTOM-COLOR: #e9eef2; BAC</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">7</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Table" Id="UIFieldTableTable" FriendlyName="fieldTable" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="Id">fieldTable</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Case no. Title 
+ClassClassClass Sub no.</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=fieldTable border=0 cellSpacing=0 bor</PropertyCondition>
+                          <PropertyCondition Name="RowCount">9</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">4</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="TagInstance">3</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">\ </PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">style="VERTICAL-ALIGN: top" class=topBor</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">3</PropertyCondition>
+                              <PropertyCondition Name="Class">topBorderOn</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">4</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIEditCell" FriendlyName="Edit" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">baseDetailAM_rediger</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Edit </PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">8</PropertyCondition>
+                          <PropertyCondition Name="Class">menuButton2</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">12</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIEditPane" FriendlyName="Edit" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Edit</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UITitleEdit1" FriendlyName="Title" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                          <PropertyCondition Name="Id">title</PropertyCondition>
+                          <PropertyCondition Name="Name">title</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="LabeledBy">Title</PropertyCondition>
+                          <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">inputRQ</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="BORDER-BOTTOM-COLOR: #7c9ab2; BAC</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">7</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIListIframeF1Frame" FriendlyName="listIframeF1" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">listIframe</PropertyCondition>
+                  <PropertyCondition Name="Name">listIframeF1</PropertyCondition>
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">onblur=if(!Captia.openMenu){listIframLos</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UIHttpsjora01db01Document" FriendlyName="http://sjora01/db01/" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="AbsolutePath">/db01/</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://sjora01/db01/</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UICase20110727T134043Cell" FriendlyName="Case 2011-07-27T13:40:43" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">title</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Class">listItemCol</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UICase20110727T134043Pane" FriendlyName="Case 2011-07-27T13:40:43" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="Class">divClip2</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Pane" Id="UICase20110727T134043Pane1" FriendlyName="Case 2011-07-27T13:40:43" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - sjora01/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Case 2011-07-27T13:40:43</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">divClip2</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=divClip2 onmouseover="if(!title) t</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIScanJourCaptia104915Window" FriendlyName="ScanJour Captia - 10.49.15.190/db01/Default.asp - ..." SpecialControlType="BrowserWindow" SessionId="3212864">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">ScanJour Captia - 10.49.15.190/db01/Default.asp</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Frame" Id="UICaptiaAppFrameFrame" FriendlyName="captiaAppFrame" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">captiaAppFrame</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">hideFocus style="POSITION: absolute" id=</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UIScanJourCaptiaDocument" FriendlyName="ScanJour Captia" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">ScanJour Captia</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/db01/</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://10.49.15.190/db01/</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UICreatecaseCell" FriendlyName="Create case" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">glob_opretsag</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText"> Create case </PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                          <PropertyCondition Name="Class">menuButton</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UICreatecasePane" FriendlyName="Create case" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText"> Create case </PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIFragmentsregister_txEdit" FriendlyName="fragments:register_txt" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                          <PropertyCondition Name="Id">freeTextHeaderField</PropertyCondition>
+                          <PropertyCondition Name="Name">fragments:register_txt</PropertyCondition>
+                          <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="LabeledBy" />
+                          <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">id=freeTextHeaderField tabIndex=-1 size=</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIFindCell" FriendlyName="Find" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">glob_freesearch</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Find </PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                          <PropertyCondition Name="Class">menuButton</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">14</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIFindPane" FriendlyName="Find" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Find </PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIFindCell1" FriendlyName="Find" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">glob_freesearch</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Find </PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="BACKGROUND-COLOR: #fffbf0; PADDIN</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                          <PropertyCondition Name="Class">menuButton</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">14</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIFindPane" FriendlyName="Find" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Find </PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIMenuFrameFrame" FriendlyName="menuFrame" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">menuFrame</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">style="Z-INDEX: 1; BORDER-BOTTOM: 1px ou</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">6</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UIHttp104915190db01Document" FriendlyName="http://10.49.15.190/db01/" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="AbsolutePath">/db01/</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://10.49.15.190/db01/</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Table" Id="UIMTableTable" FriendlyName="mTable" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="Id">mTable</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Create case   
+ Create case   
+Create </PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="VISIBILITY: visible" id=mTable bo</PropertyCondition>
+                          <PropertyCondition Name="RowCount">8</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">5</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UICreatecaseCell" FriendlyName="Create case" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Create case</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">title="" width="99%" noWrap</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">1</PropertyCondition>
+                              <PropertyCondition Name="Class" />
+                              <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIF1Frame" FriendlyName="f1" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">f1</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">hideFocus style="Z-INDEX: 2; HEIGHT: 736</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UICaptiaFrontpgDocument" FriendlyName="Captia - Front pg." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">Captia - Front pg.</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/db01/showSearchPage.asp</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://10.49.15.190/db01/showSearchPage.asp?register=system_owner&amp;template=start.htm</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIOpencases5Cell" FriendlyName="Open cases (5)" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">fors_t_mineAabneSager</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Open cases (5)</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                          <PropertyCondition Name="Class">menuButton2</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">11</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIOpencasesPane" FriendlyName="Open cases" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Open cases</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIListIframeF1Frame" FriendlyName="listIframeF1" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">listIframe</PropertyCondition>
+                  <PropertyCondition Name="Name">listIframeF1</PropertyCondition>
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">onblur=if(!Captia.openMenu){listIframLos</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UIHttp104915190db01Document" FriendlyName="http://10.49.15.190/db01/" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="AbsolutePath">/db01/</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://10.49.15.190/db01/</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIItem2011000001Cell" FriendlyName="2011-00-0001" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">file_no</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">2011-00-0001</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=file_no class=listItemCol width=120 n</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">1</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">7</PropertyCondition>
+                          <PropertyCondition Name="Class">listItemCol</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">72</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIItem2011000001Pane" FriendlyName="2011-00-0001" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">2011-00-0001</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">divClip2</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=divClip2 onmouseover="if(!title) t</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIChanged20110801T1427Cell" FriendlyName="Changed 2011-08-01T14:27:10" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">description</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Changed 2011-08-01T14:27:10</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=description class=listItemCol width=5</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">1</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">8</PropertyCondition>
+                          <PropertyCondition Name="Class">listItemCol</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">60</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIChanged20110801T1427Pane" FriendlyName="Changed 2011-08-01T14:27:10" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Changed 2011-08-01T14:27:10</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">divClip2</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=divClip2 onmouseover="if(!title) t</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItem7520264Cell" FriendlyName="7520264" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">record_key</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">7520264</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">id=record_key class=listItemCol width=86</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">1</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">12</PropertyCondition>
+                          <PropertyCondition Name="Class">listItemCol</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">82</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIItem7520264Pane" FriendlyName="7520264" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">7520264</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">divClip2</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=divClip2 onmouseover="if(!title) t</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Frame" Id="UIF1Frame1" FriendlyName="f1" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                  <PropertyCondition Name="Id">f1</PropertyCondition>
+                  <PropertyCondition Name="Name" />
+                  <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" />
+                  <PropertyCondition Name="PageUrl">null.htm</PropertyCondition>
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="Class" />
+                  <PropertyCondition Name="ControlDefinition">hideFocus style="Z-INDEX: 2; DISPLAY: in</PropertyCondition>
+                  <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Document" Id="UICaptiaFrontpgDocument" FriendlyName="Captia - Front pg." SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                      <PropertyCondition Name="Id" />
+                      <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                      <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                      <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title">Captia - Front pg.</PropertyCondition>
+                      <PropertyCondition Name="AbsolutePath">/db01/showSearchPage.asp</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">http://10.49.15.190/db01/showSearchPage.asp?register=system_owner&amp;template=start.htm</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIDocuments2Cell" FriendlyName="Documents (2)" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="Id">fors_t_aktivt</PropertyCondition>
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Documents (2)</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">style="PADDING-LEFT: 5px; PADDING-RIGHT:</PropertyCondition>
+                          <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                          <PropertyCondition Name="ColumnIndex">8</PropertyCondition>
+                          <PropertyCondition Name="Class">menuButton2</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">17</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Pane" Id="UIDocumentsPane" FriendlyName="Documents" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>ScanJour Captia - 10.49.15.190/db01/Default.asp</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="InnerText">Documents</PropertyCondition>
+                              <PropertyCondition Name="Title" />
+                              <PropertyCondition Name="Class">topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="ControlDefinition">class=topMenuLink</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>
