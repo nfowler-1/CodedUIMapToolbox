@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="UIMapToolbox.VS2012.VSIX.1ddee96f-5eef-4ff4-a0b1-13cf1cfbc7f9">
+    <Name>UIMap Toolbox for Visual Studio 2012</Name>
+    <Author>UIMapToolbox</Author>
+    <Version>1.0.5.0</Version>
+    <Description xml:space="preserve">UIMap Toolbox allows you to restructure, split and merge UIMaps created for Microsoft CodedUI tests in Visual Studio 2012.</Description>
+    <Locale>1033</Locale>
+    <MoreInfoUrl>http://uimaptoolbox.codeplex.com</MoreInfoUrl>
+    <License>License.txt</License>
+    <GettingStartedGuide>http://uimaptoolbox.codeplex.com/documentation</GettingStartedGuide>
+    <Icon>App.ico</Icon>
+    <PreviewImage>UIMapToolbox.png</PreviewImage>
+    <SupportedProducts>
+      <VisualStudio Version="11.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References />
+  <Content>
+    <VsPackage>|UIMapToolbox.VSPackage;PkgdefProjectOutputGroup|</VsPackage>
+    <CustomExtension Type="dll">|UIMapToolbox.Core|</CustomExtension>
+  </Content>
+</Vsix>
