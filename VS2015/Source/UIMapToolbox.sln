@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMapToolbox.Core", "UIMapToolbox.Core\UIMapToolbox.Core.csproj", "{B60706A0-0528-4223-BC36-CF419000DBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMapToolbox.Core.UnitTest", "UIMapToolbox.Core.UnitTest\UIMapToolbox.Core.UnitTest.csproj", "{60DD4F94-62F4-4B8E-B53E-88F956D95A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMapToolbox.UI", "UIMapToolbox.UI\UIMapToolbox.UI.csproj", "{F1AEEDAA-5024-4E34-9BD5-B676A4262066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMapToolbox.VSPackage", "UIMapToolbox.VSPackage\UIMapToolbox.VSPackage.csproj", "{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMapToolbox.VSIX", "UIMapToolbox.VSIX\UIMapToolbox.VSIX.csproj", "{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B60706A0-0528-4223-BC36-CF419000DBB9}.Release|x86.ActiveCfg = Release|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{60DD4F94-62F4-4B8E-B53E-88F956D95A00}.Release|x86.ActiveCfg = Release|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Debug|x86.ActiveCfg = Debug|x86
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Debug|x86.Build.0 = Debug|x86
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Release|x86.ActiveCfg = Release|x86
+		{F1AEEDAA-5024-4E34-9BD5-B676A4262066}.Release|x86.Build.0 = Release|x86
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{74B9ABE3-9BF7-4A21-BAFF-7B2E5F1DBF05}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7D81735F-881E-4A9F-A1D5-08C6F7564C5D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs37
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UIMapToolbox.Core.UnitTest\\UIMapToolbox.Core.UnitTest.csproj
+		SccProjectName1 = UIMapToolbox.Core.UnitTest
+		SccLocalPath1 = UIMapToolbox.Core.UnitTest
+		SccProjectUniqueName2 = UIMapToolbox.Core\\UIMapToolbox.Core.csproj
+		SccProjectName2 = UIMapToolbox.Core
+		SccLocalPath2 = UIMapToolbox.Core
+		SccProjectUniqueName3 = UIMapToolbox.UI\\UIMapToolbox.UI.csproj
+		SccProjectName3 = UIMapToolbox.UI
+		SccLocalPath3 = UIMapToolbox.UI
+		SccProjectUniqueName4 = UIMapToolbox.VSPackage\\UIMapToolbox.VSPackage.csproj
+		SccProjectName4 = UIMapToolbox.VSPackage
+		SccLocalPath4 = UIMapToolbox.VSPackage
+		SccProjectUniqueName5 = UIMapToolbox.VSIX\\UIMapToolbox.VSIX.csproj
+		SccProjectName5 = UIMapToolbox.VSIX
+		SccLocalPath5 = UIMapToolbox.VSIX
+	EndGlobalSection
+EndGlobal
