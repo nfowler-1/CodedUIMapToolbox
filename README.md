@@ -11,8 +11,8 @@ User Guide including some thoughts on developing maintainable CodedUI tests can 
 
 Integrates into Visual Studio, so it's possible to open UIMap Toolbox directly from the Solution Explorer window:
 
-[image:UIMapToolboxContextMenu_VS2012.png]
+![UIMapToolboxContextMenu_VS2012](/UIMapToolboxContextMenu_VS2012.png)
 
 UIMap Toolbox with two UIMaps opened:
 
-[image:UIMapToolbox_2.png]
+![UIMapToolbox_2](/UIMapToolbox_2.png?raw=true)
