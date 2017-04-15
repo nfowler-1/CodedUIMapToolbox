@@ -1,0 +1,22 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="3d0bbd14-d6d6-4fb0-8e13-4bbccf8b9db7" Version="1.0.8.0" Language="en-US" Publisher="UIMapToolbox" />
+    <DisplayName>UIMapToolbox.VSPackage</DisplayName>
+    <Description xml:space="preserve">UIMapToolbox. See more at https://github.com/nfowler-1/CodedUIMapToolbox</Description>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0, 16.0)" />
+    <InstallationTarget Version="[15.0, 16.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[15.0,16.0)" Id="Microsoft.VisualStudio.Ultimate" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.6,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.14.0" DisplayName="Visual Studio MPF 14.0" Version="[14.0,15.0)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="UIMapToolbox.VSPackage.pkgdef" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0.26208.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>

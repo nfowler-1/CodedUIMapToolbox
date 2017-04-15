@@ -1,0 +1,13 @@
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\TestData\MainUIMap.uitest
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\TestData\NotepadUIMap1.uitest
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\TestData\NotepadUIMap2.uitest
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\TestData\NotepadUIMapWithActions.uitest
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\UIMapToolbox.Core.UnitTest.dll
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\UIMapToolbox.Core.UnitTest.pdb
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\UIMapToolbox.Core.dll
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\UIMapToolbox.Core.pdb
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\obj\Release\UIMapToolbox.Core.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\obj\Release\UIMapToolbox.Core.UnitTest.dll
+C:\Users\nicholas\Source\Repos\CodedUIMapToolbox\VS2017\Source\UIMapToolbox.Core.UnitTest\obj\Release\UIMapToolbox.Core.UnitTest.pdb
