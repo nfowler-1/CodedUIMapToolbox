@@ -21,7 +21,7 @@ UIMap Toolbox with two UIMaps opened:
 
 Please download from Visual Studio Gallery site:
 
-* Visual Studio 2017: (https://marketplace.visualstudio.com/vsgallery/8980f169-723b-4216-859c-b372780be9da)
+* Visual Studio 2017: (https://visualstudiogallery.msdn.microsoft.com/8980f169-723b-4216-859c-b372780be9da)
 * Visual Studio 2015: (https://visualstudiogallery.msdn.microsoft.com/304a186f-ee13-42ac-9c4d-930c4797c9fb)
 * Visual Studio 2013: (http://visualstudiogallery.msdn.microsoft.com/b1b65cb6-c5aa-486d-b953-4284c787d5a1)
 * Visual Studio 2012: (http://visualstudiogallery.msdn.microsoft.com/8c40efc5-272c-4450-b422-9397880846b1)
