@@ -1,3 +1,6 @@
+### Support for the CodedUIMapToolbox has ended.  
+The VS2017 release is the final one.  If another developer wants to pick it up, please create an issue here.
+
 # CodedUIMapToolbox
 UIMap Toolbox allows you to restructure, split and merge UIMaps created for Microsoft CodedUI tests in Visual Studio
 
